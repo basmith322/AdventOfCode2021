@@ -3,16 +3,16 @@ package dayOne
 import java.io.File
 
 fun main() {
-    val aocDay1 = AOCDay1()
-    aocDay1.calcNum()
+    val part1 = Part1()
+    part1.calcNum()
 }
 
-class AOCDay1 {
+class Part1 {
     fun calcNum(){
         var currentNum: Int
         var lastNum: Int
         var isGreaterThan = 0
-        val numbers = "/home/ben/uleska/AdventOfCode2021/src/main/resources/AOCDay1Data.txt"
+        val numbers = "/home/ben/uleska/AdventOfCode2021/src/main/resources/part1Data.txt"
         val lines: List<String> = File(numbers).readLines()
 
         //Init lastNum

@@ -3,12 +3,12 @@ package dayOne
 import java.io.File
 
 fun main() {
-    val part2 = Part2()
+    val part2 = Day1Part2()
     part2.calcNum()
 }
 
-class Part2 {
-    private val numbers = "/home/ben/uleska/AdventOfCode2021/src/main/resources/part1Data.txt"
+class Day1Part2 {
+    private val numbers = "/home/ben/uleska/AdventOfCode2021/src/main/resources/day1Data.txt"
 
     fun calcNum() {
         var currentNumSum: Int

@@ -4,12 +4,12 @@ import java.io.File
 
 
 fun main() {
-    val part1 = Part1()
+    val part1 = Day1Part1()
     part1.calcNum()
 }
 
-class Part1 {
-    private val numbers = "/home/ben/uleska/AdventOfCode2021/src/main/resources/part1Data.txt"
+class Day1Part1 {
+    private val numbers = "/home/ben/uleska/AdventOfCode2021/src/main/resources/day1Data.txt"
 
     fun calcNum() {
         var currentNum: Int
